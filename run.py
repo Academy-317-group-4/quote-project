@@ -14,7 +14,7 @@ token = os.getenv("TELEGRAM_TOKEN")
 
 def run_flask():
     """Запуск Flask-приложения"""
-    app.run(host='127.0.0.1', port=5002)
+    app.run(host='0.0.0.0', port=5002)
 
 def run_telegram_bot():
     """Запуск Telegram-бота"""
